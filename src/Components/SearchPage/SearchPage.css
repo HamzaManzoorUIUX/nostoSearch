@@ -1,0 +1,63 @@
+/* SearchPage.css */
+
+.search-page_product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.search-page_title {
+  font-size: 16px;
+}
+.search-page-product-card {
+  display: flex;
+  flex-direction: column;
+}
+.search-page-product-card .product-image {
+  height: auto !important;
+  width: 100% !important;
+}
+.search-page-product-card .quick-add-btn {
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 0.25rem;
+}
+.search-page-product-card .search-page-card-details {
+  position: relative;
+  padding-right: 30px;
+}
+.search-page-product-card .search-page-card-details .search-page-product-price {
+  margin-bottom: 0.125rem;
+  margin-top: 0.5rem;
+}
+.search-page-product-card .search-page-card-details .search-page-product-title {
+  margin-bottom: 0.25rem;
+  margin-top: 0.125rem;
+  font-size: 14px;
+  color: gray;
+}
+.search-page-product-card .search-page-card-details .heart-btn {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+.search-page-product-card .search-page-card-details .heart-btn svg {
+  width: 25px;
+  height: 25px;
+}
+.back-btn {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-btn svg {
+  width: 20px;
+  height: 20px;
+}
